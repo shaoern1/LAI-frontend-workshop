@@ -156,7 +156,7 @@ h6 {
   }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 60px;
   margin-right: 4px;
 }
 
@@ -2731,14 +2731,14 @@ section,
   width: 44px;
   height: 44px;
   margin: 0 5px;
-  background-color: #5ba533; /* Green from reference image */
+  background-color: rgba(115, 155, 127, 0.7); /* Green from reference image */
   border-radius: 50%;
   color: #fff;
   font-size: 20px;
 }
 
 .social-icon:hover {
-  background-color: #8bc34a;
+  background-color: rgba(255, 255, 255, 0.7);
   transform: translateY(-3px);
 }
 
@@ -2750,7 +2750,7 @@ section,
 }
 
 .primary-menu a {
-  color: #ff3a4c;
+  colour: rgba(115, 155, 127, 0.7);
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -2759,7 +2759,7 @@ section,
 }
 
 .primary-menu a:hover {
-  color: #ff687a;
+  color:rgba(255, 255, 255, 0.7);
 }
 
 .primary-menu .separator {
