@@ -1,4 +1,4 @@
-LAI Frontend workshop
+LAI Frontend workshop (Caitlyn)
 
 1) CLI basics (cd, cd.., ls, touch) DONE
 2) Git basics (Clone, add, commit, push, branch) DONE
