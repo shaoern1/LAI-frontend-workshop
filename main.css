@@ -1,21 +1,22 @@
 /* CSS styles to make our page look better */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Brush Script MT', cursive;
+    color: #304533;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fbe8e1;
 }
 
 header, footer {
-    background-color: #333;
-    color: white;
+    background-color: #5b6d5b;
+    color: rgb(252, 239, 226);
     text-align: center;
     padding: 1rem;
 }
 
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     background-color: white;
