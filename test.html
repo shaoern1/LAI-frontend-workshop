@@ -1,193 +1,233 @@
 <!DOCTYPE html>
 <!-- This declaration tells the browser this is an HTML5 document -->
 <html lang="en">
-<!-- The <html> tag is the root element of every HTML page -->
-<!-- The lang attribute specifies the language of the page content -->
+  <!-- The <html> tag is the root element of every HTML page -->
+  <!-- The lang attribute specifies the language of the page content -->
 
-<head>
+  <head>
+    <link rel="stylesheet" href="main.css" />
     <!-- The <head> section contains information about the page that isn't displayed -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- This meta tag sets the character encoding to UTF-8 (supports all characters) -->
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- This makes the page responsive on mobile devices -->
-    
-    <title>Learn HTML Basics - Fun Tutorial</title>
-    <!-- The title appears in the browser tab and search results -->
-    
-    
-</head>
-<link rel="stylesheet" href="main.css">
 
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This makes the page responsive on mobile devices -->
+
+    <title>気をつけてください！</title>
+    <!-- The title appears in the browser tab and search results -->
+  </head>
+
+  <body>
     <!-- The <body> contains all the visible content of the webpage -->
-    
+
     <header>
-        <!-- Header section - appears at the top of every page -->
-        <h1>🌟 Welcome to HTML Basics! 🌟</h1>
-        <p>Your journey into web development starts here</p>
+      <!-- Header section - appears at the top of every page -->
+      <h1>Japanese Knowlegde Crash Course (˶˃ ᵕ ˂˶) </h1>
+      <p><strong>WELCOME</strong> to the beginnings of your general 
+        understanding of <em>nihongo</em> and let's see if you're 
+        still willing to learn it after this~~~ </p>
     </header>
 
     <main>
-        <!-- Main content area -->
-        
-        <section>
-            <!-- Sections help organize content into logical groups -->
-            <h2>What is HTML?</h2>
-            <!-- h2 is a second-level heading (smaller than h1) -->
-            
-            <p>
-                <!-- Paragraphs contain blocks of text -->
-                <strong>HTML</strong> stands for <em>HyperText Markup Language</em>. 
-                It's the standard language used to create web pages. HTML uses special codes 
-                called <strong>tags</strong> to tell the browser how to display content.
-            </p>
-            <!-- <strong> makes text bold, <em> makes text italic -->
-        </section>
+      <!-- Main content area -->
 
-        <section>
-            <h2>Basic HTML Structure</h2>
-            
-            <div class="example-box">
-                <!-- <div> is a container element used to group other elements -->
-                <h3>Every HTML page has this basic structure:</h3>
-                
-                <ul>
-                    <!-- <ul> creates an unordered (bulleted) list -->
-                    <li><code>&lt;!DOCTYPE html&gt;</code> - Tells browser it's HTML5</li>
-                    <li><code>&lt;html&gt;</code> - Root element that contains everything</li>
-                    <li><code>&lt;head&gt;</code> - Contains page information (not visible)</li>
-                    <li><code>&lt;body&gt;</code> - Contains all visible content</li>
-                    <!-- Each <li> is a list item -->
-                </ul>
-            </div>
-        </section>
+      <section>
+        <!-- Sections help organize content into logical groups -->
+        <h2>What is <u>日本語</u>?</h2>
+        <!-- h2 is a second-level heading (smaller than h1) -->
 
-        <section>
-            <h2>Common HTML Tags</h2>
-            
-            <h3>Headings</h3>
-            <!-- There are 6 levels of headings, h1 through h6 -->
-            <h1>This is an H1 heading (largest)</h1>
-            <h2>This is an H2 heading</h2>
-            <h3>This is an H3 heading</h3>
-            <h4>This is an H4 heading</h4>
-            <h5>This is an H5 heading</h5>
-            <h6>This is an H6 heading (smallest)</h6>
+        <p>
+          <!-- Paragraphs contain blocks of text -->
+          <strong>日本語</strong>, pronounced as <em>nihongo</em>, 
+          directly translates to "Japan language". It is the native 
+          language of an East Asian Country, Japan.
+        </p>
+        <!-- <strong> makes text bold, <em> makes text italic -->
+      </section>
 
-            <h3>Text Formatting</h3>
-            <p>You can make text <strong>bold</strong>, <em>italic</em>, or <u>underlined</u>.</p>
-            <p>You can also create <sup>superscript</sup> and <sub>subscript</sub> text.</p>
+      <section>
+        <h2><strong>The 3 language systems</strong></h2>
 
-            <h3>Lists</h3>
-            
-            <h4>Ordered List (numbered):</h4>
-            <ol>
-                <!-- <ol> creates an ordered (numbered) list -->
-                <li>First item</li>
-                <li>Second item</li>
-                <li>Third item</li>
-            </ol>
+        <div class="example-box">
+          <!-- <div> is a container element used to group other elements -->
+          <h3>1. 漢字 <em>kanji</em></h3>
 
-            <h4>Unordered List (bulleted):</h4>
-            <ul>
-                <li>Apple</li>
-                <li>Banana</li>
-                <li>Orange</li>
-            </ul>
+          <ul>
+            <!-- <ul> creates an unordered (bulleted) list -->
+            <li>
+              It is split into two types of words: <code>Kunyomi</code>, which are words
+              and concepts from native Japan, and their pronounciations are original, and 
+              <code><em>Onyomi</em></code>, which are words and concepts that were imported
+              from China, and their pronounciations are usually similar to that of the orignal Chinese character.
+            </li>
+            <li>
+              Fun fact (or a warning): Each <em>kanji</em> character typically has multiple readings
+              that vary with their context. THERE IS ABSOLUTELY NO PATTERN TO THIS WHATSOEVER AND TO 
+              BE PROFICIENT IN JAPANESE, THE NUMBER OF <EM>KANJI</EM> YOU NEED TO KNOW IS AROUND 2000+ 
+              😭😭😭
+            </li>
+            <li>
+                <strong>Example:</strong> The character 気, while usually pronounced as "ki"
+                in most contexts, can combine with other charcaters that end up meaning "emotion",
+                "electricity", or even "be careful"
+            </li>            
+           
+            <!-- Each <li> is a list item -->
+          </ul>
+        </div>
+      </section>
 
-            <h3>Links and Images</h3>
-            
-            <p>
-                Here's a link to <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a>
-                <!-- <a> creates links. href is the destination, target="_blank" opens in new tab -->
-            </p>
+      <section>
+        <h2>Common HTML Tags</h2>
 
-            <p>Here's an example image:</p>
-            <img src="assets/img/favicon-32x32.png" 
-                 alt="HTML Logo placeholder" 
-                 width="32" 
-                 height="32">
-            <!-- <img> displays images. src is the image location, alt describes the image -->
+        <h3>Headings</h3>
+        <!-- There are 6 levels of headings, h1 through h6 -->
+        <h1>This is an H1 heading (largest)</h1>
+        <h2>This is an H2 heading</h2>
+        <h3>This is an H3 heading</h3>
+        <h4>This is an H4 heading</h4>
+        <h5>This is an H5 heading</h5>
+        <h6>This is an H6 heading (smallest)</h6>
 
-            <h3>Tables</h3>
-            
-            <table border="1" style="border-collapse: collapse; width: 100%; margin: 10px 0;">
-                <!-- <table> creates a table structure -->
-                <thead>
-                    <!-- <thead> contains table header rows -->
-                    <tr>
-                        <!-- <tr> creates a table row -->
-                        <th>Tag</th>
-                        <th>Purpose</th>
-                        <th>Example</th>
-                        <!-- <th> creates header cells -->
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- <tbody> contains the main table content -->
-                    <tr>
-                        <td>&lt;p&gt;</td>
-                        <td>Paragraph</td>
-                        <td>Regular text content</td>
-                        <!-- <td> creates regular table cells -->
-                    </tr>
-                    <tr>
-                        <td>&lt;h1&gt;</td>
-                        <td>Main heading</td>
-                        <td>Page titles</td>
-                    </tr>
-                    <tr>
-                        <td>&lt;a&gt;</td>
-                        <td>Link</td>
-                        <td>Navigation, external sites</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        <h3>Text Formatting</h3>
+        <p>
+          You can make text <strong>bold</strong>, <em>italic</em>, or
+          <u>underlined</u>.
+        </p>
+        <p>
+          You can also create <sup>superscript</sup> and
+          <sub>subscript</sub> text.
+        </p>
 
-        <section>
-            <h2>Fun Activity: Create Your Own!</h2>
-            
-            <div class="example-box">
-                <h3>Try This Challenge:</h3>
-                <ol>
-                    <li>Create a heading with your name</li>
-                    <li>Write a paragraph about your favorite hobby</li>
-                    <li>Make a list of your top 3 favorite foods</li>
-                    <li>Add a link to your favorite website</li>
-                </ol>
-                
-                <p><strong>Remember:</strong> Every opening tag needs a closing tag! 
-                   For example: <code>&lt;p&gt;content&lt;/p&gt;</code></p>
-            </div>
-        </section>
+        <h3>Lists</h3>
 
-        <section>
-            <h2>Key Things to Remember</h2>
-            
-            <ul>
-                <li>HTML tags are surrounded by angle brackets: <code>&lt; &gt;</code></li>
-                <li>Most tags come in pairs: opening <code>&lt;tag&gt;</code> and closing <code>&lt;/tag&gt;</code></li>
-                <li>Some tags are self-closing: <code>&lt;img&gt;</code>, <code>&lt;br&gt;</code></li>
-                <li>Proper indentation makes code easier to read</li>
-                <li>Always include alt text for images for accessibility</li>
-                <li>Test your HTML in a web browser to see how it looks</li>
-            </ul>
-        </section>
+        <h4>Ordered List (numbered):</h4>
+        <ol>
+          <!-- <ol> creates an ordered (numbered) list -->
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+        </ol>
+
+        <h4>Unordered List (bulleted):</h4>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Orange</li>
+        </ul>
+
+        <h3>Links and Images</h3>
+
+        <p>
+          Here's a link to
+          <a href="https://www.w3schools.com/html/" target="_blank"
+            >W3Schools HTML Tutorial</a
+          >
+          <!-- <a> creates links. href is the destination, target="_blank" opens in new tab -->
+        </p>
+
+        <p>Here's an example image:</p>
+        <img
+          src="assets/img/favicon-32x32.png"
+          alt="HTML Logo placeholder"
+          width="32"
+          height="32"
+        />
+        <!-- <img> displays images. src is the image location, alt describes the image -->
+
+        <h3>Tables</h3>
+
+        <table
+          border="1"
+          style="border-collapse: collapse; width: 100%; margin: 10px 0"
+        >
+          <!-- <table> creates a table structure -->
+          <thead>
+            <!-- <thead> contains table header rows -->
+            <tr>
+              <!-- <tr> creates a table row -->
+              <th>Tag</th>
+              <th>Purpose</th>
+              <th>Example</th>
+              <!-- <th> creates header cells -->
+            </tr>
+          </thead>
+          <tbody>
+            <!-- <tbody> contains the main table content -->
+            <tr>
+              <td>&lt;p&gt;</td>
+              <td>Paragraph</td>
+              <td>Regular text content</td>
+              <!-- <td> creates regular table cells -->
+            </tr>
+            <tr>
+              <td>&lt;h1&gt;</td>
+              <td>Main heading</td>
+              <td>Page titles</td>
+            </tr>
+            <tr>
+              <td>&lt;a&gt;</td>
+              <td>Link</td>
+              <td>Navigation, external sites</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Fun Activity: Create Your Own!</h2>
+
+        <div class="example-box">
+          <h3>Try This Challenge:</h3>
+          <ol>
+            <li>Create a heading with your name</li>
+            <li>Write a paragraph about your favorite hobby</li>
+            <li>Make a list of your top 3 favorite foods</li>
+            <li>Add a link to your favorite website</li>
+          </ol>
+
+          <p>
+            <strong>Remember:</strong> Every opening tag needs a closing tag!
+            For example: <code>&lt;p&gt;content&lt;/p&gt;</code>
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Key Things to Remember</h2>
+
+        <ul>
+          <li>
+            HTML tags are surrounded by angle brackets: <code>&lt; &gt;</code>
+          </li>
+          <li>
+            Most tags come in pairs: opening <code>&lt;tag&gt;</code> and
+            closing <code>&lt;/tag&gt;</code>
+          </li>
+          <li>
+            Some tags are self-closing: <code>&lt;img&gt;</code>,
+            <code>&lt;br&gt;</code>
+          </li>
+          <li>Proper indentation makes code easier to read</li>
+          <li>Always include alt text for images for accessibility</li>
+          <li>Test your HTML in a web browser to see how it looks</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-        <!-- Footer section - appears at the bottom of every page -->
-        <p>&copy; 2025 HTML Learning Tutorial | Keep practicing and have fun coding! 🚀</p>
-        <p>
-            <small>
-                <!-- <small> is used for fine print or less important information -->
-                Remember: The best way to learn HTML is by practicing. 
-                Try changing this code and see what happens!
-            </small>
-        </p>
+      <!-- Footer section - appears at the bottom of every page -->
+      <p>
+        &copy; 2025 HTML Learning Tutorial | Keep practicing and have fun
+        coding! 🚀
+      </p>
+      <p>
+        <small>
+          <!-- <small> is used for fine print or less important information -->
+          Remember: The best way to learn HTML is by practicing. Try changing
+          this code and see what happens!
+        </small>
+      </p>
     </footer>
-
-</body>
+  </body>
 </html>

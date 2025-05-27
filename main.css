@@ -4,6 +4,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
     background-color: #f4f4f4;
 }
 
@@ -12,12 +14,16 @@ header, footer {
     color: white;
     text-align: center;
     padding: 1rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    word-break: break-word;
+    overflow-wrap: break-word;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -26,6 +32,8 @@ main {
     background-color: #e8f4f8;
     border: 2px solid #007acc;
     padding: 15px;
+    word-break: break-word;
+    overflow-wrap: break-word;
     margin: 10px 0;
     border-radius: 5px;
 }
@@ -33,6 +41,8 @@ main {
 code {
     background-color: #f1f1f1;
     padding: 2px 4px;
+    word-break: break-word;
+    overflow-wrap: break-word;
     border-radius: 3px;
     font-family: 'Courier New', monospace;
 }
