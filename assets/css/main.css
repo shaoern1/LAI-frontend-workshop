@@ -142,11 +142,16 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
+
+.header a img {
+  width: 500px;
+  height: 100%;
+}
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
   padding: 15px 0;
-  transition: all 0.5s;
+  transition: all 0.5s; 
   z-index: 997;
 }
 
@@ -199,7 +204,8 @@ h6 {
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
-@media (max-width: 1200px) {
+
+@media (max-width: 100px) {
   .header .logo {
     order: 1;
   }
@@ -2750,7 +2756,7 @@ section,
 }
 
 .primary-menu a {
-  color: #ff3a4c;
+  color: #d3cece;
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -2759,7 +2765,7 @@ section,
 }
 
 .primary-menu a:hover {
-  color: #ff687a;
+  color: #57c1ef;
 }
 
 .primary-menu .separator {
